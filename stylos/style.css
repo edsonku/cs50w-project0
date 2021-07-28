@@ -1,6 +1,10 @@
 h1{
     color:aqua;
 }
-.clase{
-    color: blueviolet;
+#primera{
+    height: 265px;
+    background-image: url("https://i2.wp.com/modogeeks.com/wp-content/uploads/2020/08/hazbin-hotel.jpg?fit=1080%2C603&ssl=1");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
 }
