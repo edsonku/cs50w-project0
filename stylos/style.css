@@ -1,5 +1,12 @@
-h1{
-    color:black;
+body{
+    background-image: url(https://t4.ftcdn.net/jpg/03/02/74/89/360_F_302748918_Vs76DTDodjhhkYuCEFahu0LcoDZkBuaW.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+#Texto{
+    color:blue;
+    font-family: fantasy;
+    font-size: x-large;
 }
 #primera{
     height: 265px;
