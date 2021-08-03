@@ -1,12 +1,23 @@
 body{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.contenedor{
     background-image: url(https://t4.ftcdn.net/jpg/03/02/74/89/360_F_302748918_Vs76DTDodjhhkYuCEFahu0LcoDZkBuaW.jpg);
-    background-repeat:no-repeat;
-    background-size: cover;
+    height: 100vh;
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    /*z-index*/
 }
 #Texto{
     color:blue;
     font-family: fantasy;
     font-size: x-large;
+    text-align: center;
 }
 #primera{
     height: 265px;
