@@ -27,8 +27,12 @@ body{
     font-size: x-large;
     text-align: center;
 }
-.carousel-item{
-   position: center;
+.carousel-item img{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 50%;
+   height: 50%;
 }
 .ryck{
     height: 265px;
