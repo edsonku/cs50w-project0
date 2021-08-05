@@ -6,11 +6,16 @@ body{
 
 
 .contenedor{
+    
+    padding: 1px;
+
+    background-origin: padding-box;
     background-image: url(https://t4.ftcdn.net/jpg/03/02/74/89/360_F_302748918_Vs76DTDodjhhkYuCEFahu0LcoDZkBuaW.jpg);
     height: 100vh;
     background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center;
+    
     /*z-index*/
     
 }
