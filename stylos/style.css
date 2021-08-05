@@ -27,17 +27,10 @@ body{
     font-size: x-large;
     text-align: center;
 }
-.carousel-item img{
+/* .carousel-item img{
    display: flex;
    justify-content: center;
    align-items: center;
    width: 50%;
-   height: 50%;
-}
-.ryck{
-    height: 265px;
-    background-image: url("https://media.metrolatam.com/2020/04/15/template17-9e47a0d57d93220af7a71cc987a7ba5d-1200x800.jpg");
-    background-size: cover;
-    background-repeat:no-repeat;
-    background-position: center;
+   height: 50%; */
 }
