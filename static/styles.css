@@ -5,4 +5,11 @@ p {
 h1 {
   color: #c6538c;
 }
+
+#bg4 {
+  background-image: url(https://previews.123rf.com/images/celcinar/celcinar1712/celcinar171200265/92563732-primer-plano-de-hojas-grandes-peque%C3%B1as-anchas-y-largas.jpg);
+  brackground-size: cover;
+  background-position: relative;
+  background-repeat: no-repeat;
+}
 /*# sourceMappingURL=styles.css.map */
