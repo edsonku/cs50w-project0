@@ -32,10 +32,13 @@ body{
     font-size: x-large;
     text-align: center;
 }
-/* .carousel-item img{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   width: 50%;
-   height: 50%; */
+
+footer{
+    background-color: grey;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 5px;
+}
+#totop{
+    
 }
