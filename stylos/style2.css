@@ -1,7 +1,7 @@
 
 @media (max-width: 600px) {
-    .facet_sidebar {
-      display: none;
+    body{
+      background-color: lightseagreen;
     }
 }
 .main_container{
@@ -17,3 +17,7 @@
     right: -50px;
     background:  no-repeat 12px 50% white;
 } 
+.carousel-item>img{
+    width: 50%;
+    height: 50%;
+}

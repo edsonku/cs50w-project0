@@ -18,7 +18,7 @@ table {
     color: rgba(8, 35, 184, 0.89);
 }
 .ranking td{
-    background-color: cyan;
+    background-color: rgb(209, 255, 255, 0.5) ;
     padding: 10px;
     text-align: center;
 }
@@ -31,5 +31,4 @@ table {
 font-weight: 800;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 color: darkblue;
-
 }
