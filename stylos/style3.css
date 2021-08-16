@@ -22,7 +22,7 @@ table {
     padding: 10px;
     text-align: center;
 }
-.ranking td.imagen-logo, .ranking td.imagen-logo>img{
+.ranking td.imagen-logo, .ranking td.imagen-logo > img{
     width: 100px;
     height: 100px;
 }
@@ -32,3 +32,12 @@ font-weight: 800;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 color: darkblue;
 }
+
+footer{
+    background-color: grey;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
