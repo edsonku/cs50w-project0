@@ -2,6 +2,9 @@ body{
     height: 100%;
     margin: 0px;
     padding: 0px;
+    background-color: aqua;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
