@@ -8,14 +8,21 @@ h1
   color: $base-color
 
 #bg4
-  background-image: url(https://previews.123rf.com/images/celcinar/celcinar1712/celcinar171200265/92563732-primer-plano-de-hojas-grandes-peque%C3%B1as-anchas-y-largas.jpg)
-  brackground-size: cover
+  background-image: url("../imagenes/wallpaper.jpg")
+  background-size: cover
   background-position: relative
   background-repeat: no-repeat
- display: block
+  display: block
 
-.portadas
-  img
-    height: 300px
-    width: 150px
+.portadas > img
+  border: solid black 20px
+
+@media(max-width:340px)
+  .portadas > img
+    width: 15rem
+  
+  .portadas
+    width: 180px
+
+
   

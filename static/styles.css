@@ -7,19 +7,23 @@ h1 {
 }
 
 #bg4 {
-  background-image: url("https://th.bing.com/th/id/R.316ed7879a7389c2fd514ddf18729f36?rik=%2bGOmoh%2fJBNM1xA&riu=http%3a%2f%2fwww.mascotahogar.com%2fImagenes%2ffondo-de-escritorio-de-peces-tropicales.jpg&ehk=FWXhVz5brBJZD%2fPvF7y3uU923paA1E6PxdwMUfS5xuo%3d&risl=&pid=ImgRaw&r=0");
+  background-image: url("../imagenes/wallpaper.jpg");
   background-size: cover;
   background-position: relative;
   background-repeat: no-repeat;
+  display: block;
 }
 
 .portadas > img {
   border: solid black 20px;
 }
-@media(max-width:340px){
-  .portadas > img{
-    width: 10rem;
+
+@media (max-width: 340px) {
+  .portadas > img {
+    width: 15rem;
+  }
+  .portadas {
+    width: 180px;
   }
 }
-
 /*# sourceMappingURL=styles.css.map */

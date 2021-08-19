@@ -2,26 +2,17 @@ body{
     height: 100%;
     margin: 0px;
     padding: 0px;
-    background-color: aqua;
     background-size: cover;
     background-repeat: no-repeat;
+    background-image: url("../imagenes/wallpaper.jpg");
+}
+
+.fondo{
+    background-color: aliceblue;
+
 }
 
 
-.contenedor{
-    
-    padding: 1px;
-
-    background-origin: padding-box;
-    background-image: url(https://t4.ftcdn.net/jpg/03/02/74/89/360_F_302748918_Vs76DTDodjhhkYuCEFahu0LcoDZkBuaW.jpg);
-    height: 100vh;
-    background-size:     cover;                      /* <------ */
-    background-repeat:   no-repeat;
-    background-position: center;
-    
-    /*z-index*/
-    
-}
 #Texto{
     color:blue;
     font-family: fantasy;
@@ -35,6 +26,36 @@ body{
     font-size: x-large;
     text-align: center;
 }
+
+.row{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.imagencita{
+ padding-top: 50px;
+}
+.imagencita >img{
+    height: 300px;
+    width: 400px;
+   
+}
+
+@media (max-width: 600px) {
+
+    .imagencita >img{
+        height: 20rem;
+    }
+}
+.totop{
+    position: fixed;
+    width: 140px;
+    height: 50px;
+    border: solid 2px black;
+    border-radius: 30px;
+    bottom: 100px;
+    right: -50px;
+    background:  no-repeat 12px 50% white;
+} 
 
 footer{
     background-color: grey;
