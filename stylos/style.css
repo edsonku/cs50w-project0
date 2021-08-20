@@ -27,6 +27,16 @@ body{
     
 }
 
+button {
+    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #2e518b; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/
+    }
 .row{
     margin-top: 20px;
     margin-bottom: 50px;
@@ -40,12 +50,30 @@ body{
    
 }
 
-@media (max-width: 600px) {
+@media (max-width: 990px) {
+
+    .imagencita >img{
+        height: 30rem;
+        width: 50rem;
+    }
+}
+
+@media (max-width: 832px) {
 
     .imagencita >img{
         height: 20rem;
+        width: 25rem;
     }
 }
+@media (max-width: 360px) {
+
+    .imagencita >img{
+        height: 10rem;
+        width: 15rem;
+    }
+}
+
+
 .totop{
     position: fixed;
     width: 140px;
@@ -87,6 +115,18 @@ table {
 font-weight: 800;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 color: rgb(2, 2, 2);
+}
+
+.titulo{
+    color: antiquewhite;
+    font-size: x-large;
+}
+
+@media (max-width: 360px) {
+.tabla{
+    width: 15rem; 
+    }
+
 }
 
 footer{

@@ -1,9 +1,9 @@
 p {
-  border: 1px solid rgba(198, 83, 140, 0.88);
+  border: 1px solid rgba(7, 42, 87, 0.88);
 }
 
 h1 {
-  color: #c6538c;
+  color: #072a57;
 }
 
 #bg4 {
@@ -15,15 +15,14 @@ h1 {
 }
 
 .portadas > img {
-  border: solid black 20px;
+  border: solid rgba(7, 42, 87, 0.88) 20px;
 }
 
-@media (max-width: 340px) {
-  .portadas > img {
-    width: 15rem;
-  }
-  .portadas {
-    width: 180px;
-  }
+footer {
+  background-color: grey;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 /*# sourceMappingURL=styles.css.map */
