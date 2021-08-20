@@ -20,11 +20,11 @@ body{
     text-align: center;
 }
 
-#introduccion{
-    color:blue;
-    font-family: fantasy;
-    font-size: x-large;
-    text-align: center;
+#intro{
+    color:white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    
 }
 
 .row{
@@ -56,6 +56,38 @@ body{
     right: -50px;
     background:  no-repeat 12px 50% white;
 } 
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+.ranking{
+    width: 100%;
+    margin-top: 50px;
+}
+.ranking th{
+    padding: 10px;
+    color: rgba(250, 250, 250);
+}
+.ranking td{
+    background-color: rgba(0, 255, 255, 0.5) ;
+    padding: 10px;
+    text-align: center;
+}
+.ranking td.imagen-logo, .ranking td.imagen-logo > img{
+    width: 100px;
+    height: 100px;
+}
+
+.ranking td.Item-position, .ranking td.puntuacion{
+font-weight: 800;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: rgb(2, 2, 2);
+}
 
 footer{
     background-color: grey;
