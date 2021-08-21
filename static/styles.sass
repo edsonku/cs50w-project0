@@ -1,13 +1,13 @@
 $base-color: #072a57
 $border-dark: rgba($base-color, 0.88)
+%border
+  border: 20px solid $border-dark
 
-p
-  border: 1px solid $border-dark
 
 h1
   color: $base-color
 
-#bg4
+#body
   background-image: url("../imagenes/wallpaper.jpg")
   background-size: cover
   background-position: relative
@@ -15,14 +15,16 @@ h1
   display: block
  
 .portadas > img
-  border: solid $border-dark 20px
+  @extend %border 
+  
 
 footer
-    background-color: grey
-    text-align: center
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-    padding-top: 5px
-    padding-bottom: 5px
+  @extend %border
+  background-color: grey
+  text-align: center
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  padding-top: 5px
+  padding-bottom: 5px
 
 
   

@@ -1,21 +1,17 @@
-p {
-  border: 1px solid rgba(7, 42, 87, 0.88);
+.portadas > img, footer {
+  border: 20px solid rgba(7, 42, 87, 0.88);
 }
 
 h1 {
   color: #072a57;
 }
 
-#bg4 {
+#body {
   background-image: url("../imagenes/wallpaper.jpg");
   background-size: cover;
   background-position: relative;
   background-repeat: no-repeat;
   display: block;
-}
-
-.portadas > img {
-  border: solid rgba(7, 42, 87, 0.88) 20px;
 }
 
 footer {

@@ -118,7 +118,7 @@ table {
 .ranking td.Item-position, .ranking td.puntuacion{
 font-weight: 800;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-color: rgb(2, 2, 2);
+color: rgb(0, 0, 0);
 width: 100px;
 }
 
